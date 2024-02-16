@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8f89057.css",
-    "main.js": "/static/js/main.e3ffdbf7.js",
+    "main.css": "/static/css/main.d5fff5c1.css",
+    "main.js": "/static/js/main.ad9dd46f.js",
     "static/js/520.e8693665.chunk.js": "/static/js/520.e8693665.chunk.js",
     "static/js/212.64a0d433.chunk.js": "/static/js/212.64a0d433.chunk.js",
     "static/js/208.7068df9e.chunk.js": "/static/js/208.7068df9e.chunk.js",
@@ -14,8 +14,8 @@
     "static/media/self-pic.png": "/static/media/self-pic.d31e6a972560b40c18cf.png",
     "static/media/minecraft-overlay.png": "/static/media/minecraft-overlay.4b74fcdb448e71a4401a.png",
     "index.html": "/index.html",
-    "main.a8f89057.css.map": "/static/css/main.a8f89057.css.map",
-    "main.e3ffdbf7.js.map": "/static/js/main.e3ffdbf7.js.map",
+    "main.d5fff5c1.css.map": "/static/css/main.d5fff5c1.css.map",
+    "main.ad9dd46f.js.map": "/static/js/main.ad9dd46f.js.map",
     "520.e8693665.chunk.js.map": "/static/js/520.e8693665.chunk.js.map",
     "212.64a0d433.chunk.js.map": "/static/js/212.64a0d433.chunk.js.map",
     "208.7068df9e.chunk.js.map": "/static/js/208.7068df9e.chunk.js.map",
@@ -26,7 +26,7 @@
     "804.bf7fead0.chunk.js.map": "/static/js/804.bf7fead0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8f89057.css",
-    "static/js/main.e3ffdbf7.js"
+    "static/css/main.d5fff5c1.css",
+    "static/js/main.ad9dd46f.js"
   ]
 }

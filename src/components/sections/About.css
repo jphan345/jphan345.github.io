@@ -1,0 +1,121 @@
+.about {
+    margin: var(--section-margin) var(--margin);
+}
+
+.about-title {
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 2;
+}
+
+.about-title h3 {
+    margin-top: calc(var(--section-margin) / 3);
+    font-size: var(--large-font-size);
+}
+
+.about-subtitle-1 {
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 3;
+}
+
+.about-subtitle-1 h3 {
+    font-weight: normal;
+}
+
+.about-subtitle-2 {
+    grid-column-start: 6;
+    grid-column-end: 13;
+    grid-row-start: 4;
+
+    margin-top: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+.about-subtitle-2 h3 {
+    font-weight: normal;
+}
+
+.about-desc-num-1 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 5;
+}
+
+.about-desc-num-2 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 6;
+}
+
+.about-desc {
+    text-align: left;
+
+    z-index: 2;
+}
+
+.about-desc-content-1 {
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 5;
+
+    margin-bottom: 1.3rem;
+}
+
+.about-desc-content-2 {
+    grid-column-start: 7;
+    grid-column-end: 12;
+    grid-row-start: 6;
+}
+
+.fade-in {
+    opacity: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-title {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 2;
+    }
+    
+    .about-title h3 {
+        font-size: var(--large-font-size);
+    }
+    
+    .about-subtitle-1 {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+    }
+    
+    .about-subtitle-2 {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 4;
+    }
+    
+    .about-desc-num-1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+    }
+    
+    .about-desc-num-2 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+    }
+    
+    .about-desc-content-1 {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 5;
+    }
+    
+    .about-desc-content-2 {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-start: 6;
+    }
+}

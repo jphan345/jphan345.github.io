@@ -1,0 +1,247 @@
+.card {
+    width: 100%;
+    height: 110vh;
+    top: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+
+    cursor: pointer;
+}
+
+.card-title-container {
+    position: absolute;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-transform: uppercase;
+    
+    mix-blend-mode: difference;
+}
+
+.card-title {
+    font-size: var(--title-font-size);
+    font-weight: normal;
+    text-align: center;
+}
+
+.card-render {
+    width: 60%;
+    height: 60%;
+
+    /* z-index: 2; */
+}
+
+.overlay-container {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 3;
+  }
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: top;
+    pointer-events: none;
+
+    opacity: 0.9999;
+    /* overscroll-behavior: none; */
+    overflow: hidden;
+}
+
+.overlay-content {
+    position: fixed;
+    z-index: 4;
+    overflow: hidden;
+
+    padding: var(--margin);
+
+    height: 100%;
+}
+
+.overlay-content-item a {
+    /* text-decoration: none; */
+    color: var(--primary-color);
+}
+
+.mask {
+    overflow: hidden;
+    /* border: 1px red solid; */
+}
+
+.overlay-header-title {
+    display: block;
+    overflow: hidden;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.overlay-header-link {
+    grid-column-start: 4;
+}
+
+.overlay-header-link .mask h3 a {
+    text-decoration: none;
+}
+
+.overlay-header-back {
+    grid-column-start: 12;
+    cursor: pointer;
+}
+
+.overlay-desc-container {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 2;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-top: 5%;
+}
+
+.overlay-desc {
+    display: flex;
+    flex-direction: column;
+
+    margin-right: clamp(1rem, 10vw, 10rem);
+    max-width: 40%;
+}
+
+.overlay-desc-main {
+    font-size: var(--font-size);
+}
+
+.overlay-img .mask img {
+    justify-content: right;
+    align-items: right;
+    
+    max-width: 100%;
+    height: auto;
+}
+
+.overlay-title-container {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 3;
+
+    align-self: end;
+}
+
+.overlay-title .mask h2{
+    font-size: var(--large-font-size);
+    text-transform: uppercase;
+}
+
+.overlay-title-desc {
+    grid-column-start: 1;
+    grid-column-end: 13;
+    grid-row-start: 4;
+}
+
+.overlay-title-desc .mask h3 {
+    font-size: var(--font-size);
+    font-weight: normal;
+}
+
+.interactable-button {
+    color: var(--primary-color);
+}
+.interactable-button a {
+    color: var(--primary-color);
+}
+
+.interactable-button:hover {
+    color: var(--highlight-color);
+    transition: 0.5s;
+}
+
+.interactable-button a:hover {
+    color: var(--highlight-color);
+    transition: 0.5s;
+}
+
+.show-mobile {
+    display: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .show-mobile {
+        display: flex;
+    }
+
+    .mobile-click-instructions {
+        text-align: center;
+    }
+
+    .overlay-content {
+        padding: var(--margin);
+    }
+
+    .overlay-desc-container {
+        flex-direction: column;
+    }
+
+    .overlay-desc {
+        max-width: 100%;
+    }
+
+    .overlay-img .mask img {
+        width: clamp(10rem, 90vw, 30rem);
+        height: auto;
+        display: block;
+    }
+
+    .overlay-header-title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    
+    .overlay-header-link {
+        grid-column-start: 3;
+    }
+    
+    .overlay-header-link .mask h3 a {
+        text-decoration: none;
+    }
+    
+    .overlay-header-back {
+        grid-column-start: 6;
+        cursor: pointer;
+    }
+
+    .overlay-title-container {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        grid-row-start: 3;
+    }
+    
+    .overlay-title-desc {
+        grid-column-start: 1;
+        grid-column-end: 7;
+    }
+
+    .overlay-desc-container {
+        grid-column-start: 1;
+        grid-column-end: 7;
+    
+        margin-top: 5%;
+    }
+
+    .overlay-desc-main {
+        margin-bottom: 1rem;
+    }
+}

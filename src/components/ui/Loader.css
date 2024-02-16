@@ -1,0 +1,57 @@
+#loader {
+    /* The position: relative attribute in Hero.css somehow affects 
+    the margin-top of the Loader so a negative margin-top is needed */
+    margin-top: -6rem;
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: top;
+
+    z-index: 200;
+}
+
+.loader-header {
+    position: fixed;
+    left: var(--margin);
+    top: var(--margin);
+}
+
+.loader-header h1 {
+    font-size: var(--large-font-size);
+    font-weight: normal;
+
+    text-transform: uppercase;
+}
+
+.counter {
+    position: fixed;
+    left: auto;
+    right: var(--margin);
+    bottom: var(--margin);
+    display: flex;
+    height: var(--title-font-size);
+    font-size: var(--title-font-size);
+    line-height: var(--title-font-size);
+    clip-path: polygon(0 0, 100% 0, 100%  var(--title-font-size), 0  var(--title-font-size));
+}
+
+.counter-1, .counter-2, .counter-3 {
+    position: relative;
+    top: -15px;
+}
+
+.num1offset1 {
+    position: relative;
+    right: -25px;
+}
+
+.num1offset2 {
+    position: relative;
+    right: -10px;
+}

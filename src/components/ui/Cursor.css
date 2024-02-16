@@ -1,0 +1,26 @@
+#trailer {
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    background-color: var(--highlight-color);
+    color: var(--primary-color);
+
+    border: 1px var(--highlight-color) solid;
+    background-size: cover;
+
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 100;
+
+    pointer-events: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1px;
+    font-size: 4px;
+    font-weight: normal;
+    text-align: center;
+}

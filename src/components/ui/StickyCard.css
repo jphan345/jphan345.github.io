@@ -70,6 +70,7 @@
     padding: var(--margin);
 
     height: 100%;
+    overflow: hidden;
 }
 
 .overlay-content-item a {
@@ -243,10 +244,5 @@
 
     .overlay-desc-main {
         margin-bottom: 1rem;
-    }
-
-    .card-render {
-        width: 30%;
-        height: 30%;
     }
 }

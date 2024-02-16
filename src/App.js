@@ -31,7 +31,7 @@ function App() {
           start: "top 90%",
           end: "bottom 10%",
           scrub: false,
-          markers: true,
+          markers: false,
           animation: gsap.to(text, {
             yPercent: 0,
             duration: 2,
@@ -50,7 +50,7 @@ function App() {
         start: "top 90%",
         end: "bottom 10%",
         scrub: false,
-        markers: true,
+        markers: false,
         animation: gsap.to(text, {
           opacity: 1,
           duration: 1.5,

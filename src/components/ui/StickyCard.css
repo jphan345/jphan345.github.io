@@ -244,4 +244,9 @@
     .overlay-desc-main {
         margin-bottom: 1rem;
     }
+
+    .card-render {
+        width: 30%;
+        height: 30%;
+    }
 }

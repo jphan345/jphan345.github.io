@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c23b2017.css",
-    "main.js": "/static/js/main.ad9dd46f.js",
+    "main.css": "/static/css/main.423acb69.css",
+    "main.js": "/static/js/main.b9305970.js",
     "static/js/520.e8693665.chunk.js": "/static/js/520.e8693665.chunk.js",
     "static/js/212.64a0d433.chunk.js": "/static/js/212.64a0d433.chunk.js",
     "static/js/208.7068df9e.chunk.js": "/static/js/208.7068df9e.chunk.js",
@@ -12,13 +12,14 @@
     "static/js/804.bf7fead0.chunk.js": "/static/js/804.bf7fead0.chunk.js",
     "static/media/chess-overlay.png": "/static/media/chess-overlay.b1ad7069fcaf1ea1a08d.png",
     "static/media/self-pic.png": "/static/media/self-pic.d31e6a972560b40c18cf.png",
-    "static/media/minecraft-overlay.png": "/static/media/minecraft-overlay.4b74fcdb448e71a4401a.png",
     "static/media/PPNeueMontreal-Medium.otf": "/static/media/PPNeueMontreal-Medium.0f34f4714f1b26e0dedc.otf",
     "static/media/PPNeueMontreal-Bold.otf": "/static/media/PPNeueMontreal-Bold.34a4eb1a093eb36b2f46.otf",
     "static/media/PPNeueMontreal-Book.otf": "/static/media/PPNeueMontreal-Book.cd21cf351f4da50cf75d.otf",
+    "static/media/mc-optimized.gif": "/static/media/mc-optimized.a07b3c42c16c7f762273.gif",
+    "static/media/movieflix-mock.png": "/static/media/movieflix-mock.5d16a749bdb7890f0e37.png",
     "index.html": "/index.html",
-    "main.c23b2017.css.map": "/static/css/main.c23b2017.css.map",
-    "main.ad9dd46f.js.map": "/static/js/main.ad9dd46f.js.map",
+    "main.423acb69.css.map": "/static/css/main.423acb69.css.map",
+    "main.b9305970.js.map": "/static/js/main.b9305970.js.map",
     "520.e8693665.chunk.js.map": "/static/js/520.e8693665.chunk.js.map",
     "212.64a0d433.chunk.js.map": "/static/js/212.64a0d433.chunk.js.map",
     "208.7068df9e.chunk.js.map": "/static/js/208.7068df9e.chunk.js.map",
@@ -29,7 +30,7 @@
     "804.bf7fead0.chunk.js.map": "/static/js/804.bf7fead0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c23b2017.css",
-    "static/js/main.ad9dd46f.js"
+    "static/css/main.423acb69.css",
+    "static/js/main.b9305970.js"
   ]
 }

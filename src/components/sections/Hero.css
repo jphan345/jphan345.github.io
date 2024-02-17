@@ -50,7 +50,7 @@
     width: 0%;
     transition: 1s;
     animation: textFill 2s forwards cubic-bezier(0.6, 0.0, 0.4, 1);
-    animation-delay: 10s;
+    animation-delay: 8s;
 }
 
 

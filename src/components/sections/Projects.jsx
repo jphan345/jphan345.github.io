@@ -7,7 +7,8 @@ import './Projects.css';
 import '../../index.css';
 
 import chessImg from "../../assets/img/chess-overlay.png";
-import mcImg from "../../assets/img/minecraft-overlay.png";
+import mcGif from "../../assets/img/mc-optimized.gif";
+import movieflixImg from "../../assets/img/movieflix-mock.png";
 
 
 export default function Projects() {
@@ -65,7 +66,7 @@ export default function Projects() {
                     }
                 overlayTitle={"Goldfish"}
                 overlayTitleDesc={"Chess AI | Python"}
-                githubLink={"https://github.com/jphan345/movie-shopping-site"}
+                githubLink={"/"}
 
                 img={chessImg}
                 alt={"Chess game between me and my AI"}
@@ -93,7 +94,7 @@ export default function Projects() {
                 overlayTitleDesc={"Minecraft AI | Python | PyTorch"}
                 githubLink={"https://github.com/jphan345/minecraft-ai"}
                     
-                img={mcImg}
+                img={mcGif}
                 alt={"GIF of minecraft AI trying to find diamonds"}
             />
             <StickyCard
@@ -116,9 +117,9 @@ export default function Projects() {
                     }
                 overlayTitle={"MovieFlix"}
                 overlayTitleDesc={"Movie Shopping Website | React | SQL | Spring Boot | Java"}
-                githubLink={"/"}
+                githubLink={"https://github.com/jphan345/movie-shopping-site"}
 
-                img={mcImg}
+                img={movieflixImg}
                 alt={"phone mockups of movie shopping website project"}
             />
         </div>

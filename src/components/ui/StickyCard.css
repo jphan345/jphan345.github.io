@@ -130,7 +130,7 @@
     justify-content: right;
     align-items: right;
     
-    max-width: 100%;
+    width: clamp(10rem, 50vw, 26rem);
     height: auto;
 }
 
